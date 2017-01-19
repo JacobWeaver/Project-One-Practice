@@ -1,9 +1,25 @@
-h1 {
-    color:aqua;
-    font-family: cursive;
-    font-size: 40px;
+body{
+    background-color: none;
 }
 
-body{
-    background-color:chartreuse;
+#header {
+    width:100%;
+    background-color:beige;
+}
+
+#nav {
+    width:100%;
+    background-color:aqua;
+}
+
+.menu {
+    display:flex;
+    background-color:#caccce;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#middle-wrapper {
+  background-color:greenyellow;
+ width: 80%;   
 }
